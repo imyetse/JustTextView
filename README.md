@@ -26,7 +26,7 @@ textview.setText()
 ```
  
  效果图
- ![效果图](https://github.com/imyetse/JustTextView/blob/master/img/img.jpg)
+![效果图](https://github.com/imyetse/JustTextView/blob/master/img/img.jpg)
 
 
 欢迎start、fork
