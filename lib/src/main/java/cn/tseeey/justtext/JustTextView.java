@@ -57,10 +57,6 @@ public class JustTextView extends AppCompatTextView {
 
     @Override
     protected void onDraw(Canvas canvas) {
-        if (Build.VERSION.SDK_INT < ALIGN_SDK_INT ) {
-            super.onDraw(canvas);
-            return;
-        }
         Layout layout = getLayout();
         draw(canvas, layout);
     }
