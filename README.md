@@ -24,8 +24,9 @@ textview.setText()
 新增属性 justify
 默认为true，不想对齐可以设置为false
 ```
+效果图
  
- 效果图
+
 ![效果图](https://github.com/imyetse/JustTextView/blob/master/img/img.jpg)
 
 
