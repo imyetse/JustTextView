@@ -7,6 +7,7 @@ import android.text.Spannable
 import android.text.SpannableString
 import android.text.style.BackgroundColorSpan
 import cn.tseeey.justtext.JustTextView
+import kotlinx.android.synthetic.main.activity_main.*
 import java.util.regex.Pattern
 
 class MainActivity : AppCompatActivity() {
@@ -15,7 +16,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val textView = findViewById<JustTextView>(R.id.text);
         val charStr = getString(R.string.test_string)
         val ss = SpannableString(charStr)
         val pattern = Pattern.compile("2018")
@@ -28,6 +28,6 @@ class MainActivity : AppCompatActivity() {
 //        }
         val colorSpan = BackgroundColorSpan( Color.parseColor("#aa5f0c"))
         ss.setSpan(colorSpan, 0, 10, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE)
-        textView.text = ss
+        text.text = ss
     }
 }
