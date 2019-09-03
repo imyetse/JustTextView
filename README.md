@@ -41,7 +41,7 @@ JustTextView | 3500 | 74 ms
 TextView | 3500 | 25ms
 ## 效果图
  
-
+![未对齐](https://github.com/imyetse/JustTextView/blob/master/img/unjust.jpg)
 ![效果图](https://github.com/imyetse/JustTextView/blob/master/img/img.jpg)
 
 
