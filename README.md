@@ -35,7 +35,7 @@ textview.setText()
 ```
 
 ## 对比
-控件 |  字数 |  绘制时间  
+控件 |  测试字数 |  绘制时间  
 -|-|-|
 JustTextView | 3500 | 74 ms
 TextView | 3500 | 25ms
