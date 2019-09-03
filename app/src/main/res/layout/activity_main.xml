@@ -17,7 +17,7 @@
                 android:id="@+id/text"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:justify="false"
+                app:justify="true"
                 android:text="@string/test_string"/>
     </ScrollView>
 
