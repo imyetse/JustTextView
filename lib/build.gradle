@@ -1,4 +1,5 @@
 apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 28
@@ -21,6 +22,10 @@ android {
         }
     }
 
+    lintOptions {
+        abortOnError false
+    }
+
 }
 
 dependencies {
@@ -30,4 +35,20 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}
+
+//推送到Bintray配置
+publish {
+    //你的账户bintray下某个组织id
+    userOrg = 'imyetse'
+    //Maven仓库下库的包名,一般与包名相同
+    groupId = 'cn.tseeey'
+    //项目名称
+    artifactId = 'justtextview'
+    //版本号
+    publishVersion = '0.1.0'
+    //项目介绍，可以不写
+    desc = 'justify textview'
+    //项目主页，可以不写
+    website = ''
 }

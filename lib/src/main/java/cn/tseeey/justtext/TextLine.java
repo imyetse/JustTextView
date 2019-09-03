@@ -18,7 +18,7 @@ import android.util.Log;
  * Email:     yeshieh@163.com
  */
 class TextLine {
-    private static final boolean DEBUG = true;
+    private static final boolean DEBUG = false;
 
     private TextPaint mPaint;
     private CharSequence mText;

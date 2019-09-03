@@ -14,6 +14,7 @@ import android.text.style.LeadingMarginSpan;
 import android.text.style.ParagraphStyle;
 import android.text.style.TabStopSpan;
 import android.util.AttributeSet;
+import android.util.Log;
 import androidx.appcompat.widget.AppCompatTextView;
 
 import java.util.Arrays;
@@ -204,7 +205,7 @@ public class JustTextView extends AppCompatTextView {
                 // XXX: assumes there's nothing additional to be done
                 canvas.drawText(buf, start, end, x, lbaseline, paint);
             } else {
-                boolean needJustify = isJustificationRequired(layout, buf, i);
+                boolean needJustify = isJustificationRequired(layout, buf, i) && mJustify;
                 tl.set(paint, buf, start, end, dir, directions, hasTabOrEmoji, needJustify, tabStops);
                 if (needJustify) {
                     tl.justify(right - left - indentWidth);
