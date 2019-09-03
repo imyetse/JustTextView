@@ -1,9 +1,16 @@
 # JustTextView
+
+![](https://img.shields.io/github/issues/imyetse/JustTextView)  ![](https://img.shields.io/github/license/imyetse/JustTextView)
+
 重写textview，实现较高性能的对齐TextView，与android原生textview一样的用法，兼容所有属性。
 性能比原生TextView略差，主要原因是原生TextView除了Spannable、replacement、emoji，基本都是整行绘制，
 而对齐需要逐字绘制，具体实现可以看TextLine类。
 
 ## 直接使用
+gradle
+```
+implementation 'cn.tseeey:justtextview:0.1.0'
+```
 xml
 ```
 <cn.tseeey.justtext.JustTextView
