@@ -24,16 +24,16 @@ textview.setText()
 新增属性 justify
 默认为true，不想对齐可以设置为false
 ```
-优点
+## 优点
 ```
 兼容所有原生属性，无学习成本
 性能较好，流畅使用
 ```
-不足
+## 不足
 ```
 目前Spannable可能存在对齐问题。
 ```
-效果图
+## 效果图
  
 
 ![效果图](https://github.com/imyetse/JustTextView/blob/master/img/img.jpg)
