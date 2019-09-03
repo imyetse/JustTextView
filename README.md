@@ -40,9 +40,14 @@ textview.setText()
 JustTextView | 3500 | 74 ms
 TextView | 3500 | 25ms
 ## 效果图
- 
+原生textview
+
 ![未对齐](https://github.com/imyetse/JustTextView/blob/master/img/unjust.jpg)
+
+justtextview
+
 ![效果图](https://github.com/imyetse/JustTextView/blob/master/img/img.jpg)
+
 
 
 欢迎start、fork
