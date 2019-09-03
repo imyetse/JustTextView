@@ -7,11 +7,11 @@
 而对齐需要逐字绘制，具体实现可以看TextLine类。
 
 ## 直接使用
-gradle
+- gradle
 ```
 implementation 'cn.tseeey:justtextview:0.1.0'
 ```
-xml
+- xml
 ```
 <cn.tseeey.justtext.JustTextView
         android:id="@+id/text"
@@ -22,19 +22,19 @@ xml
             
 ```
 
-属性
+- 属性
 ```
 新增属性 justify
 默认为true，不想对齐可以设置为false
 ```
 ## 优点
 ```
-兼容所有原生属性，无学习成本
+- 兼容所有原生属性，无学习成本
 ```
 ## 不足
 ```
-目前Spannable可能存在对齐问题。
-性能比原生差
+- 目前Spannable可能存在对齐问题。
+- 性能比原生差
 ```
 
 ## 对比
