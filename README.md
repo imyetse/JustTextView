@@ -4,9 +4,8 @@
 而对齐需要逐字绘制，具体实现可以看TextLine类。
 
 ## 直接使用
-xml文件
+xml
 ```
-
 <cn.tseeey.justtext.JustTextView
         android:id="@+id/text"
         android:layout_width="wrap_content"
@@ -15,10 +14,7 @@ xml文件
         android:text="@string/test_string"/>
             
 ```
-代码
-```
-textview.setText()
-```
+
 属性
 ```
 新增属性 justify
